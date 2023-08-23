@@ -2,7 +2,9 @@
 
 import { useState } from 'react';
 import { useNavigate } from "react-router-dom"
-import * as images from "./media"
+import listicon from "../../assets/images/icon-list.svg"
+import deskillustration from "../../assets/images/illustration-sign-up-desktop.svg"
+import mobileillustration from "../../assets/images/illustration-sign-up-mobile.svg"
 
 
 const Home = () => {
@@ -54,9 +56,9 @@ const Home = () => {
           Join 60,000+ product managers receiving monthly updates on:
         </p>
         <ul>
-            <li><img src={images.listicon}  alt="list icon" /> Product discovery and building what matters</li>
-            <li><img src={images.listicon}  alt="list icon" /> Measuring to ensure updates are a success</li>
-            <li><img src={images.listicon}  alt="list icon" /> And much more!</li>
+            <li><img src={listicon}  alt="list icon" /> Product discovery and building what matters</li>
+            <li><img src={listicon}  alt="list icon" /> Measuring to ensure updates are a success</li>
+            <li><img src={listicon}  alt="list icon" /> And much more!</li>
           </ul>
         <div className='subscribe-input-div'>
             <label htmlFor="email">Email Address</label>
@@ -77,8 +79,8 @@ const Home = () => {
       </div>
 
       <div className='right-side img-div' >
-        <img src={images.deskillustration} alt="desktop main image" className="desktop-img"/>
-        <img src={images.mobileillustration} alt="mobile main image" className='mobile-img' />
+        <img src={deskillustration} alt="desktop main image" className="desktop-img"/>
+        <img src={mobileillustration} alt="mobile main image" className='mobile-img' />
       </div>
     </div>
 

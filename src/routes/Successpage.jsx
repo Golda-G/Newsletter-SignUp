@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useNavigate, useParams } from "react-router-dom"
 import successicon from "../../assets/images/icon-success.svg"
-import * as images from "./media"
+
 
 const Success = () => {
   const { email } = useParams()
