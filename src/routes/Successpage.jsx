@@ -15,7 +15,7 @@ const Success = () => {
   return (
     <>
     <div className="success-message"> 
-      <img className="success-icon" src={images.successicon} alt="success icon" />
+      <img className="success-icon" src={successicon} alt="success icon" />
     <h1 className="thanks-for-sub">Thanks for subscribing!</h1>
     <p className="success-text">A confirmation email has been sent to <span id="span-email-placeholder">{email}</span>. 
       Please open it and click the button inside to confirm your subscription.
